@@ -1,7 +1,7 @@
 # Site settings
 title: Happy Blog
 SEOTitle: 乐乐博客 | Happy Blog
-header-img: img/home-bg.jpg
+header-img: img/home-bg/1.jpg
 email: wangleqing00@qq.com
 description: "这里是乐乐的个人博客，希望与你共同进步！"
 keyword: "乐乐博客, Happy Blog, 博客, 个人网站, 互联网, Java, 后端, 区块链"
@@ -25,7 +25,7 @@ twitter_username:   leqing666
 # from 2016, 'pygments' is unsupported on GitHub Pages. Use 'rouge' for highlighting instead.
 highlighter: rouge
 permalink: pretty
-paginate: 10
+paginate: 10  # 一页放多少文章
 exclude: ["less","node_modules","Gruntfile.js","package.json","README.md","README.zh.md"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 # If you have timezone issue (e.g. #68) in China, uncomment to use this:
@@ -77,8 +77,8 @@ ga_domain: leqing.work
 
 # Sidebar settings 右侧栏设置
 sidebar: true                           # whether or not using Sidebar.
-sidebar-about-description: "热爱生命，一切都在意料之中。"
-sidebar-avatar: /img/avatar-hux-ny.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-about-description: "热爱生活，一切都在意料之中。"
+sidebar-avatar: /img/avatar/1.jpg      # use absolute URL, seeing it's used in both `/` and `/about/`
 
 
 
