@@ -1,16 +1,15 @@
 ---
 layout:     post
-title:      "解决Manjaro系统rtl8821ce无线网卡连接wifi失败"
-subtitle:   "The Solution for Manjaro rtl8821ce wireless connect wifi failed problem"
+title:      "Manjaro 系统 Rtl8821ce 无线网卡连接 Wifi"
+subtitle:   "The Solution For Manjaro Rtl8821ce Wireless Connect Wifi Failed Problem"
 date:       2021-03-27 04:30:00
 author:     "HapppyTsing"
 catalog: false
 header-style: text
 tags:
   - Linux
+  - Manjaro
 ---
-
-# Manjaro RTL8821ce无线网卡连接WIFI
 
 ## 零、背景
 
@@ -142,8 +141,6 @@ reboot
 `sudo modprobe 8821ce`
 
 `lsmod`查看是否加载内核模块`lsmod | grep 8821ce`
-
-
 
 > 有时必须重新编译dkms软件包（万一发生错误（pacman更新），通常是内核更新），
 > 如果出现任何错误，只需再次运行dkms软件包
