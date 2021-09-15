@@ -1,8 +1,8 @@
 ---
 layout:     post
-title:      "【Git Three】 Git 浅析远程协作"
+title:      "【Git Three】浅析远程协作"
 subtitle:   "How To Use Git For Remote Collaboration"
-date:       2020-11-23 22:15:00
+date:       2020-11-23 21:15:00
 author:     "HapppyTsing"
 catalog: false
 header-style: text
@@ -86,4 +86,7 @@ git pull origin <branch name>  # 拉取远程仓库 origin 的指定分支
 **zsh shortcut**：`gl`
 
 # References
+
+- [【Git One】老司机上路](https://leqing.work/2020/11/24/Git-Base/)
+- [【Git Two】分支那些事儿](https://leqing.work/2020/11/24/Git-Branch/)
 
