@@ -9,7 +9,6 @@ header-style: text
 tags:
   - Github Page
   - Jekyll
-  - Blog
 ---
 
 
