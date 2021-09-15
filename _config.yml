@@ -1,7 +1,9 @@
 # Site settings
-title: Happy Blog
+# title: Happy Blog
+title: Happy Birthday
 SEOTitle: 乐乐博客 | Happy Blog
-header-img: img/home-bg/1.jpg
+# header-img: img/home-bg/1.jpg
+header-img: img/home-bg/birthday-2021-09-15.jpg
 email: wangleqing00@qq.com
 description: "这里是乐乐的个人博客，希望与你共同进步！"
 keyword: "乐乐博客, Happy Blog, 博客, 个人网站, 互联网, Java, 后端, 区块链"
