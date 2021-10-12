@@ -12,6 +12,27 @@ tags:
 
 > 本篇主要讲解Git本地和远程仓库交互协作。
 
+# SSH秘钥
+
+```shell
+# 1. 查看是否存在秘钥，若存在，则跳过下面的步骤
+ls -al ~/.ssh
+
+# 2. 创建秘钥对
+ssh-keygen -t ed25519 -C "your_email@example.com"
+# 注：如果您使用的是不支持 Ed25519 算法的旧系统，请使用以下命令：
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+# 回车三次
+```
+
+登录并设置Github [SSH keys](https://github.com/settings/keys)：
+
+```shell
+cd ~/.ssh
+cat id_ed25519.pub  
+# 复制，在Github设置中点击New SSH key，将公钥粘贴进去即可。
+```
+
 # git remote
 
 ```shell
