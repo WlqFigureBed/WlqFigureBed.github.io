@@ -8,6 +8,8 @@ catalog: false
 header-style: text
 tags:
   - Linux
+
+
 ---
 
 # 一、zsh
@@ -90,6 +92,14 @@ ZSH_THEME="powerlevel10k/powerlevel10k"
 bindkey '·' autosuggest-accept
 ```
 
+使用如下脚本快速完成设置：
+
+```shell
+sed -i '/ZSH_THEME="/ c ZSH_THEME="powerlevel10k/powerlevel10k"' ~/.zshrc 
+sed -i '/plugins=(git)/ c plugins=(git autojump zsh-syntax-highlighting zsh-autosuggestions sudo extract)' ~/.zshrc 
+sed -i '$a bindkey '"'"'`'"'"' autosuggest-accept' ~/.zshrc 
+```
+
 保存配置：
 
 ```shell
@@ -103,9 +113,24 @@ source ~/.zshrc
 p10k configure
 ```
 
-# 三、vimplus
+# 三、vim
 
-安装[Vimplus](https://github.com/chxuan/vimplus)——开箱即用的vim插件管理工具：
+两种选择：
+
+- [vimrc](https://github.com/amix/vimrc)：推荐
+
+- [vimplus](https://github.com/chxuan/vimplus)
+
+**一、vimrc**
+
+```shell
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+```
+
+二、Vimplus**
+
+安装Vimplus——开箱即用的vim插件管理工具：
 
 ```shell
 git clone https://github.com/chxuan/vimplus.git ~/.vimplus
