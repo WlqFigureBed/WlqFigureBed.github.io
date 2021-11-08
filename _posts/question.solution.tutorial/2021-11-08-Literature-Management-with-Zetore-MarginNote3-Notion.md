@@ -21,6 +21,8 @@ tags:
 
 Download the file to the directory：`~/Zotero/locate`
 
+![locate](https://github.com/WlqFigureBed/FigureBed-one/raw/master/img/202111081621710.png)
+
 # Configure engines.json
 
 ```shell
@@ -31,7 +33,12 @@ vim engines.json # You can also use：open engines.json
 Add as following
 
 ```json
-{
+[
+
+	{
+    // Do not change the original configuration, simply add below it
+	},
+	{
 		"_name": "Notion",
 		"_alias": "Notion",
 		"_description": "Notion",
@@ -60,7 +67,8 @@ Add as following
 			"": "http://a9.com/-/spec/opensearch/1.1/"
 		},
 		"_iconSourceURI": "https://github.com/WlqFigureBed/FigureBed-one/raw/master/img/202111081459879.ico"
-	}，
+	}
+]
 ```
 
 Save `engines.json` and Restart Zetore！
@@ -97,7 +105,7 @@ Look again at the file `engines.json`：
 
 ```shell
 "_urlTemplate": "https://www.notion.so/{z:callNumber}"
-"_urlTemplate": "marginnote3app://notebook/{z:extra}",
+"_urlTemplate": "marginnote3app://notebook/{z:extra}"
 ```
 
 So we just need to change the `callNumber` and `extra`field in Zetore：
