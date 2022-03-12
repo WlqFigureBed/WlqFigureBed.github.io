@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "文献管理：Zetore+MarginNote3+Notion"
-subtitle:   "Literature Management：Zetore+MarginNote3+Notion"
+title:      "文献管理：Zotero+MarginNote3+Notion"
+subtitle:   "Literature Management：Zotero+MarginNote3+Notion"
 date:       2021-11-08 16:30:00
 author:     "HapppyTsing"
 catalog: false
@@ -12,7 +12,7 @@ tags:
 
 # BackGround
 
-使用Zetore进行文献管理，MarginNote3阅读论文，Notion做笔记，但是三者各自独立，经过一番探索，发现可以使用Zetore作为中枢，连接MN3和Notion，实现跨平台的完美联动。
+使用Zotero进行文献管理，MarginNote3阅读论文，Notion做笔记，但是三者各自独立，经过一番探索，发现可以使用Zotero作为中枢，连接MN3和Notion，实现跨平台的完美联动。
 
 # Download icons
 
@@ -71,21 +71,21 @@ Add as following
 ]
 ```
 
-Save `engines.json` and Restart Zetore！
+Save `engines.json` and Restart Zotero！
 
 # Get keyword
 
 ## Notion
 
-- Select the page you want to link to Zetore
+- Select the page you want to link to Zotero
 - Copy link：`command + L`
 
 ## MarginNote3
 
-- Select the notebook you want to link to Zetore
+- Select the notebook you want to link to Zotero
 - Copy link：`复制笔记本URL`
 
-# Link to Zetore
+# Link to Zotero
 
 Now we have links to notion and mn3's notes.
 
@@ -108,9 +108,9 @@ Look again at the file `engines.json`：
 "_urlTemplate": "marginnote3app://notebook/{z:extra}"
 ```
 
-So we just need to change the `callNumber` and `extra`field in Zetore：
+So we just need to change the `callNumber` and `extra`field in Zotero：
 
-![Zetore](https://github.com/WlqFigureBed/FigureBed-one/raw/master/img/202111081551724.png)
+![Zotero](https://github.com/WlqFigureBed/FigureBed-one/raw/master/img/202111081551724.png)
 
 Click on the green arrow above info：
 
